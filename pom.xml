@@ -55,7 +55,7 @@
 		</dependency>
 
 		<dependency>
-			<groupI>org.springframework.cloud</groupId>
+			<groupId>org.springframework.cloud</groupId>
 			<artifatId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 		<dependency>
