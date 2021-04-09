@@ -8,7 +8,7 @@
 	<version>2.4.3</version>
 	<packaging>pom</packaging>
 		
-		<modules>
+	<modules>
         <module>eureka-server</module>
         <module>movie-catalog-service</module>
         <module>movie-info-service</module>
@@ -26,6 +26,7 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<version>${spring-cloud.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
